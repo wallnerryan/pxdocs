@@ -33,7 +33,7 @@ Learn the basics of Portworx and how it can enable your stateful workloads. This
 
 #### Resources
 
- - [Portworx Interactive Tutorials](/interactive-tutorials/)
+ - [Portworx Interactive Tutorials](https://docs.portworx.com/interactive-tutorials/)
 
 ## Understanding Storage Pools
 
@@ -43,7 +43,7 @@ Portworx achieves mobility for applications by dynamically managing pools of sto
 
 #### Resources
 
- - [Class of Service Docs](/concepts/class-of-service/#explanation-of-class-of-service)
+ - [Class of Service Docs](https://docs.portworx.com/concepts/class-of-service/#explanation-of-class-of-service)
 
 ## Deployment Modes (Hyperconverged, Disaggregated)
 
@@ -53,8 +53,8 @@ Portworx deploys it’s full stack of software in a linux container. In this sho
 
 #### Resources
 
- - [Deployment Architectures Docs](/cloud-references/deployment-arch)
- - [Hyperconvergence Docs](/portworx-install-with-kubernetes/storage-operations/hyperconvergence/)
+ - [Deployment Architectures Docs](https://docs.portworx.com/cloud-references/deployment-arch)
+ - [Hyperconvergence Docs](https://docs.portworx.com/portworx-install-with-kubernetes/storage-operations/hyperconvergence/)
 
 ## Deploying Portworx on Kubernetes
 
@@ -64,7 +64,7 @@ In this video, learn how Portworx runs on any distribution of Kubernetes and wha
 
 #### Resources
 
- - [Install with Kubernetes](/portworx-install-with-kubernetes/)
+ - [Install with Kubernetes](https://docs.portworx.com/portworx-install-with-kubernetes/)
  - [Try Installing Portworx on Kubernetes yourself](https://www.katacoda.com/portworx/scenarios/deploy-px-k8s)
  - [Access Kubernetes Spec Generator in PX-Central](https://central.portworx.com/)
 
@@ -76,8 +76,8 @@ In this video, learn how Portworx runs on any distribution of Kubernetes and wha
 
 #### Resources
 
- - [Topology Info for Replication Placement Docs](/concepts/update-geography-info/)
- - [Dynamic Provisioning Parameters](/portworx-install-with-kubernetes/storage-operations/create-pvcs/dynamic-provisioning/)
+ - [Topology Info for Replication Placement Docs](https://docs.portworx.com/concepts/update-geography-info/)
+ - [Dynamic Provisioning Parameters](https://docs.portworx.com/portworx-install-with-kubernetes/storage-operations/create-pvcs/dynamic-provisioning/)
  - [Example deploying MySQL with Portworx Replication](https://www.katacoda.com/portworx/scenarios/px-mysql)
 
 ## Volume snapshot types
@@ -88,9 +88,9 @@ Learn how Portworx provides data protection with snapshots. This short video wil
 
 #### Resources
 
- - [Snapshots Docs](/reference/cli/snapshots/)
- - [Create Snapshots on Kubernetes Docs](/portworx-install-with-kubernetes/storage-operations/create-snapshots/)
- - [Cloud Snapshots Docs](/reference/cli/cloud-snaps/)
+ - [Snapshots Docs](https://docs.portworx.com/reference/cli/snapshots/)
+ - [Create Snapshots on Kubernetes Docs](https://docs.portworx.com/portworx-install-with-kubernetes/storage-operations/create-snapshots/)
+ - [Cloud Snapshots Docs](https://docs.portworx.com/reference/cli/cloud-snaps/)
 
 ## What is RTO and RPO
 
@@ -100,7 +100,7 @@ Understanding Recovery Time Objects (RTO) and Recovery Point Object (RPO) is vit
 
 #### Resources
 
- - [Disaster Recovery Configuration with Kubernetes Docs](/portworx-install-with-kubernetes/disaster-recovery/)
+ - [Disaster Recovery Configuration with Kubernetes Docs](https://docs.portworx.com/portworx-install-with-kubernetes/disaster-recovery/)
  - [RPO and RTO Blog](https://portworx.com/kubernetes-data-management-perspective-understanding-rto-rpo/)
  - [Zero PO Disaster Recovery Blog](https://portworx.com/achieving-zero-rpo-disaster-recovery-kubernetes/)
 
@@ -113,9 +113,9 @@ Disaster Recovery is a critical component of every data management solution. In 
 
 #### Resources
 
- - [Portworx Disaster Recovery Docs](/portworx-install-with-kubernetes/disaster-recovery/)
- - [Portworx Synchronous Disaster Recovery](/portworx-install-with-kubernetes/disaster-recovery/px-metro/)
- - [Portworx Asynchronous Disaster Recovery](/portworx-install-with-kubernetes/disaster-recovery/async-dr/)
+ - [Portworx Disaster Recovery Docs](https://docs.portworx.com/portworx-install-with-kubernetes/disaster-recovery/)
+ - [Portworx Synchronous Disaster Recovery](https://docs.portworx.com/portworx-install-with-kubernetes/disaster-recovery/px-metro/)
+ - [Portworx ASynchronous Disaster Recovery](https://docs.portworx.com/portworx-install-with-kubernetes/disaster-recovery/async-dr/)
 
 ## What are Shared Volumes
 
@@ -125,9 +125,9 @@ Shared volumes or volume shares allow multiple readers and writers for applicati
 
 #### Resources
 
- - [Portworx Shared Volumes Docs](/concepts/shared-volumes/)
+ - [Portworx Shared Volumes Docs](https://docs.portworx.com/concepts/shared-volumes/)
  - [Portworx Shared volumes on Kubernets Tutorial](https://www.katacoda.com/portworx/scenarios/px-k8s-vol-shared)
- - [CLI Reference for Shared Volumes](/reference/cli/create-and-manage-volumes/#global-namespace-shared-volumes)
+ - [Cli Reference for Shared Volumes](https://docs.portworx.com/reference/cli/create-and-manage-volumes/#global-namespace-shared-volumes)
 
 ## Capacity Management (AutoPilot)
 
@@ -137,8 +137,8 @@ Capacity management is a key aspect for application development and in complex m
 
 #### Resources
 
- - [Portworx Capacity Management Docs](/portworx-install-with-kubernetes/autopilot/)
- - [Portworx Capacity Management Reference](/portworx-install-with-kubernetes/autopilot/reference/)
+ - [Portworx Capacity Management Docs](https://docs.portworx.com/portworx-install-with-kubernetes/autopilot/)
+ - [Portworx Capacity Management Reference](https://docs.portworx.com/portworx-install-with-kubernetes/autopilot/reference/)
  - [CockroachDB Demo](https://www.youtube.com/watch?v=vCnUczaSXDA)
 
 ## Introduction to Portworx on Red Hat Openshift
@@ -149,7 +149,8 @@ In this lightboard session viewers will learn the basics of running Potworx on O
 
 #### Resources
 
- - [Install Portworx on OpenShift](/portworx-install-with-kubernetes/on-premise/openshift/)
+ - [Install Portworx on OpenShift](https://docs.portworx.com/portworx-install-with-kubernetes/on-premise/openshift/)
+ - [Red Hat Blog: Disaster Recovery Strategies for Red Hat OpenShift](https://blog.openshift.com/disaster-recovery-strategies-for-red-hat-openshift/)
 
 ## Data Locality with Stork (Storage Orchestrator for Kubernetes)
 
@@ -160,7 +161,7 @@ Stork is the Portworx’s storage scheduler for Kubernetes that helps achieve ev
 #### Resources
 
  - [Introducing STORK: Intelligent Storage Orchestration for Kubernetes](https://portworx.com/stork-storage-orchestration-kubernetes/)
- - [Using Stork with Portworx](/portworx-install-with-kubernetes/storage-operations/stork/)
+ - [Using Stork with Portworx](https://docs.portworx.com/portworx-install-with-kubernetes/storage-operations/stork/)
 
 ## Application Aware Snapshots using Pre and Post Rules
 
@@ -170,7 +171,7 @@ Portworx supports specifying pre and post rules that are run on the application 
 
 #### Resources
 
- - [Create Pre and Post Rules for Snapshots](/portworx-install-with-kubernetes/storage-operations/create-snapshots/snaps-3d/#step-1-create-rules)
+ - [Create Pre and Post Rules for Snapshots](https://docs.portworx.com/portworx-install-with-kubernetes/storage-operations/create-snapshots/snaps-3d/#step-1-create-rules)
 
 ## Understand how PX-Autopilot can be used to automatically add disks to your storage pool
 
@@ -180,7 +181,7 @@ Users use an Autopilot Rule which a CRD within Kubernetes to tell Autopilot whic
 
 #### Resources
 
- - [Working with AutoPilot Rules](/portworx-install-with-kubernetes/autopilot/how-to-use/working-with-rules/)
+ - [Working with AutoPilot Rules](https://docs.portworx.com/portworx-install-with-kubernetes/autopilot/how-to-use/working-with-rules/)
 
 ## Learn about Volume Placement Strategies like Volume Affinity and Anti-Affinity
 
@@ -190,5 +191,59 @@ When you provision volumes, Portworx places them throughout the cluster and acro
 
 #### Resources
 
- - [VolumePlacementStrategy CRD](/portworx-install-with-kubernetes/storage-operations/create-pvcs/volume-placement-strategies/#the-volumeplacementstrategy-crd)
+ - [VolumePlacementStratefy CRD](https://docs.portworx.com/portworx-install-with-kubernetes/storage-operations/create-pvcs/volume-placement-strategies/#the-volumeplacementstrategy-crd)
  - [Kubernetes StatefulSets](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/)
+
+## Configuring your storage cluster
+
+Configuring Portworx storage takes into account a number of different options. General options are available for types or storage, where the key-store is, what type of scheduler to use, what backing disk will be used, enabling security and much more. In this video, we will walk through some of the widely used options for configuring your Portworx storage cluster and common considerations when planning your Portworx deployment.
+
+{{< youtube aPrjEa4FX3g >}}
+
+## Redirect-on-Write Snapshots
+
+Portworx snapshots are redirect-on-write snapshots and are thin clones. In this video, we’ll walk through what it means for snapshots to be “redirect-on-write” and how this compares to other common practices such as copy-on-write and why it helps improve overall performance of Portworx volumes.
+
+{{< youtube _Bw9jgULnm8 >}}
+
+## Topology Awareness
+
+Portworx nodes can be made aware of the rack on which they are a placed as well as the zone and region in which they are present. Portworx can use this information to influence the volume replica placement decisions. You can also provide your cluster topology information to Portworx using Kubernetes node labels and this video will explain how these labels are used for replica placement.
+
+{{< youtube Csr8HNi4nRw >}}
+
+## Management and Visibility with PX Central On-prem
+
+PX-Central is a graphical user interface that allows you to monitor and manage your Portworx clusters on-premises or in the cloud. In this lightboard we will walk through the differences with the SaaS version and explain the variations of what you can accomplish using PX Central.
+
+{{< youtube Mr_mWdfpyHg >}}
+
+## Overview of Backup and Recovery for Kubernetes
+
+In this video, get an overview of PX-Backup, the backup and recovery solution for Kubernetes from Portworx. PX-Backup installs into Kubernetes clusters just like Portworx does today, and this makes the addition of the backup and restore service completely Kubernetes-native for the end user. Once the PX-Backup pods come online, you are ready to start backing up and restoring applications and data.
+
+{{< youtube Nf1thpqqlWw >}}
+
+## Portworx Essentials vs Portworx Enterprise
+
+Select the best Portworx Enterprise Storage for you. In this video we’ll explain the differences between Portworx Essentials and Enterprise and when you would want to use one over the other.
+
+{{< youtube z5KHbQJvHdc >}}
+
+## Local High Availability, Backup & Restore and Disaster Recovery
+
+Local High Availability, Backup and Restore, and Disaster Recovery are three capabilities that are the foundation of any enterprise data protection program and they are the essential elements to consider when evaluating a Kubernetes backup tool or solution. 
+
+{{< youtube 2EjFYjUU1jc >}}
+
+## Storage Policies for Volume Provisioning
+
+Storage policies allow users to manage the storage policies of the Portworx cluster. Once defined, a storage policy ensures that the volumes being created on the Portworx cluster follow the same set of common specs/rules. This video will give an overview of how storage policies can be used and how Kubernetes environments can reference them within a StorageClass.
+
+{{< youtube r-jWev8Lh60 >}}
+
+## Monitoring and Logging for Kubernetes
+
+Portworx runs as a DaemonSet on the Kubernetes cluster which ensures that it runs on each node as part of the Kubernetes cluster. To allow access to the logs of a failed node, pod or a container in Kubernetes we would have to adopt a complete logging solution. The need to access or view logs of failed container workloads means that we would need to enable storage and the logs should have a separate life cycle than that of the container that creates it. Elasticsearch, FluentD and Kibana allow us to setup a complete logging solution for accessing logs of the Portworx pods scheduled on the Kubernetes cluster.
+
+{{< youtube EnNK03EZrSM >}}
