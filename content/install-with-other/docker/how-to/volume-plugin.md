@@ -6,7 +6,7 @@ weight: 1
 linkTitle: How Portworx Volumes work with Docker
 ---
 
-## Docker interaction with Portworx 
+## Docker interaction with Portworx
 
 Portworx implements the [Docker Volume Plugin Specification](https://docs.docker.com/engine/extend/plugins_volume/).
 

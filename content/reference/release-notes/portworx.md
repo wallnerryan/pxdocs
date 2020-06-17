@@ -6,6 +6,75 @@ keywords: portworx, release notes
 series: release-notes
 ---
 
+## 2.3.1.3
+
+June 13, 2020
+
+## Fixes
+
+The following issues have been fixed:
+
+|**Issue Number**|**Issue Description**|
+|----|----|
+|PWX-13086| When a VM running Kubernetes worker node gets deleted, Portworx drives get deleted.<br/><br/>**User impact:** When a worker node running Kubernetes worker node gets deleted and the Portworx disks are still attached to the VM, the default vSphere behavior is the disks also get deleted. This causes Portworx to loose it's data disk and hence users will end up loosing the Portworx node. <br/><br/>**Resolution:** For vSphere 6.7.3 and above, create PX disks (vmdks) such that they don't get deleted on VM deletion by using the `keepAfterDeleteVm` flag. For lower vSphere versions, the issue still persists.|
+|PWX-13542| PX running on vSphere using cloud drives fails to come up when it cannot find the path of the attached disk.<br/><br/>**User impact:** Portworx will fail to initialize on the node when it fails to find the device path of the attached disk. <br/><br/>**Resolution:** Portworx will now retry upto 2 minutes to find the path of the attached disk.|
+
+### Improvements
+
+Portworx has upgraded or enhanced functionality in the following areas:
+
+| **Improvement Number** | **Improvement Description** |
+|----|----|
+|PWX-13510| Added a new runtime option `rt_opts kvdb_failover_timeout_in_mins` to configure kvdb offline node failover timeout. Default value is set to 3 minutes.|
+
+
+
+## 2.5.0.3
+
+June 12, 2020
+
+## Fixes
+
+The following issues have been fixed:
+
+|**Issue Number**|**Issue Description**|
+|----|----|
+| PWX-13655 | When Portworx went down or restarted, it created detailed logs. On some systems, this operation could take a long time and potentially hang.<br/><br/>**User impact:** Log collection could become unresponsive as a result of this log dump. <br/><br/>**Resolution:** Unnecessary logs were removed, eliminating the possibility for log collection to hang. |
+
+## 2.5.0.2
+
+June 12, 2020
+
+## Fixes
+
+The following issues have been fixed:
+
+|**Issue Number**|**Issue Description**|
+|----|----|
+|PWX-9401| A [bug in Kubernetes 1.13.5 and lower](https://github.com/kubernetes/kubernetes/issues/76340) caused the Portworx volume driver to occasionally save annotations from one PVC into the parameters for another. <br/><br/>**User Impact:** Portworx may have created a PVC with a different group ID than the one set in its annotations. <br/><br/>**Resolution:** Portworx now uses the group value from the PVC annotation that's fetched at runtime from the Kubernetes API during volume creation to ensure the group ID doesn't change.|
+
+### Improvements
+
+Portworx has upgraded or enhanced functionality in the following areas:
+
+| **Improvement Number** | **Improvement Description** |
+|----|----|
+|PWX-10207|You can now override a volume's group field using pxctl: <br/><br/> `pxctl volume update --group <GROUP> <VOL_NAME>`|
+
+## 2.5.1.3
+
+June 05, 2020
+
+## Fixes
+
+The following issues have been fixed:
+
+|**Issue Number**|**Issue Description**|
+|----|----|
+|PWX-13086| For vSphere 6.7.3 and above, create PX disks (vmdks) such that they don't get deleted on VM deletion. |
+|PWX-13542| Fixed in issue where PX would fail to come up vSphere using cloud drives when it cannot find the path of the attached disk|
+|PWX-13510| Added a new runtime option `rt_opts kvdb_failover_timeout_in_mins` to configure kvdb offline node failover timeout. Default value is set to 3 minutes|
+
 ## 2.5.2
 
 May 29, 2020
